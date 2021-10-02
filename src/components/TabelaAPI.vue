@@ -11,7 +11,7 @@
                     </th>
 
                     <th class="text-left"> 
-                        Tipo 
+                        Categoria
                     </th>
 
                 </tr>
@@ -29,12 +29,24 @@
                             <img :src="entidade.imagem">
                         </v-avatar>
                     </td>
-                    <td> <h5> {{ entidade.nome }} </h5></td>
-                    <td>
+
+                    <td> 
+                        <a  :href= "entidade.link" target="_blank">{{ entidade.nome }}</a>
+                        <v-container>
+                            <v-chip color="orange">
+                                {{entidade.tipo}}
+                            </v-chip>
+                        </v-container>
+
+                    </td>
+
+                    <td >
                         <v-chip
                             color="orange"
-                        >{{entidade.tipo}}</v-chip>
+                        >{{entidade.Categoria}}
+                        </v-chip>
                     </td>
+
                 </tr>
             </tbody>
         </template>
@@ -55,8 +67,5 @@ export default {
 
 <style scoped>
 
-.text-left {
-    
-}
 
 </style>

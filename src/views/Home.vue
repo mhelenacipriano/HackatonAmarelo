@@ -3,10 +3,9 @@
     <acompanhamento />
     <entidade />
     <informacoes />
-
     <v-app-bar app color="#F5CF00" dark>
       <router-link class="link-home" to="/">
-        <v-icon>mdi-home-variant</v-icon>
+        <v-icon> mdi-home </v-icon>
       </router-link>
     </v-app-bar>
 
@@ -22,6 +21,7 @@
         "
       >
         <div id="op1" class="mb-3 mt-5">
+<<<<<<< HEAD
          <v-img
             contain
             class="imagem mb-2"
@@ -31,10 +31,16 @@
           <router-link class="link-informacoes" to="/Informacoes">
             <h2>Informações</h2>
             
+=======
+          <router-link class="link-informacoes" to='/Informacoes'>
+            <h2>Informações</h2>
+            <v-icon>mdi-letter-g-box-outline</v-icon>
+>>>>>>> 18bd467de205b9d57e9c2ee45886fe6079d7956c
           </router-link>
         </div>
 
         <div id="op2" class="mb-3 mt-5">
+<<<<<<< HEAD
           <v-img
             contain
             class="imagem mb-2"
@@ -57,6 +63,17 @@
           <router-link class="link-acompanhamento" to="/Acompanhamento">
             <h2 class="">Acompanhamento</h2>
           </router-link>
+=======
+        <router-link class="link-entidades" to="/entidade">
+          <h2 class="">Entidades</h2>
+        </router-link>
+        </div>
+
+        <div id="op3" class="mb-3 mt-5">
+          <router-link class="link-acompanhamento" to="/Acompanhamento">
+          <h2 class="">Acompanhamento</h2>
+                  </router-link>
+>>>>>>> 18bd467de205b9d57e9c2ee45886fe6079d7956c
         </div>
 
         
@@ -86,6 +103,7 @@ export default {
     Acompanhamento,
     Informacoes,
   },
+
 };
 </script>
 
