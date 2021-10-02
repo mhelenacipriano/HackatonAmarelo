@@ -67,8 +67,6 @@ export default {
 
 <style scoped>
 
-.text-left {
-    
-}
+
 
 </style>

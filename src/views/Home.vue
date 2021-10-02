@@ -34,7 +34,7 @@
         </div>
 
         <div id="op3" class="mb-3 mt-5">
-          <router-link class="link-acompanhamento" to="/Acompanhamento.vue">
+          <router-link class="link-acompanhamento" to="/Acompanhamento">
           <h2 class="">Acompanhamento</h2>
                   </router-link>
         </div>
