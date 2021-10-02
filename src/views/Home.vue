@@ -21,14 +21,14 @@
         "
       >
         <div id="op1" class="mb-3 mt-5">
-          <router-link class="link-informacoes" to="/Informacoes.vue">
+          <router-link class="link-informacoes" to='/Informacoes'>
             <h2>Informações</h2>
             <v-icon>mdi-letter-g-box-outline</v-icon>
           </router-link>
         </div>
 
         <div id="op2" class="mb-3 mt-5">
-        <router-link class="link-entidades" to="/Entidades.vue">
+        <router-link class="link-entidades" to="/entidade">
           <h2 class="">Entidades</h2>
         </router-link>
         </div>

@@ -11,7 +11,7 @@
                     </th>
 
                     <th class="text-left"> 
-                        Tipo 
+                        Categoria
                     </th>
 
                 </tr>
@@ -40,10 +40,10 @@
 
                     </td>
 
-                    <td>
+                    <td >
                         <v-chip
                             color="orange"
-                        >{{entidade.tipo}}
+                        >{{entidade.Categoria}}
                         </v-chip>
                     </td>
 
@@ -66,7 +66,6 @@ export default {
 </script>
 
 <style scoped>
-
 
 
 </style>
