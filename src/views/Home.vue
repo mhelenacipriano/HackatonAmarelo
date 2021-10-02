@@ -24,6 +24,7 @@
         <div id="op1" class="mb-3 mt-5">
           <router-link class="link-informacoes" to="/Informacoes.vue">
             <h2>Informações</h2>
+            <v-icon>mdi-info-outline</v-icon>
           </router-link>
         </div>
 
@@ -36,7 +37,7 @@
         <div id="op3" class="mb-3 mt-5">
           <router-link class="link-acompanhamento" to="/Acompanhamento.vue">
           <h2 class="">Acompanhamento</h2>
-          </router-link>
+                  </router-link>
         </div>
       </v-container>
     </div>
