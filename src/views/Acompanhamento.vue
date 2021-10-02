@@ -1,4 +1,4 @@
-<template class="red " >
+<template >
   <v-container>
     <h2 class="text-h5 text-center mb-7 mt-1">Acompanhamento</h2>
 <!-- Verificar o fundo do nome e se ta alinhado-->   
@@ -81,8 +81,8 @@
 
 
 
-    <p><a href="#" class="mt-4">Volta ao inicio</a></p>
-
+    <p><a href="#" class="mt-4">Volta ao topo</a></p>
+    <p><a href="http://localhost:8084" class="mt-4">Volta ao Home</a></p>
   </div>
 
   </v-container>

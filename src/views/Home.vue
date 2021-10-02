@@ -22,7 +22,10 @@
         "
       >
         <div id="op1" class="mb-3 mt-5">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 941fd25314ee8ae1d3d0c4676896f62891925981
          <v-img
             contain
             class="imagem mb-2"
@@ -31,6 +34,10 @@
           </v-img>
           <router-link class="link-informacoes" to="/Informacoes">
             <h2>Informações</h2>
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 941fd25314ee8ae1d3d0c4676896f62891925981
           </router-link>
         </div>
 
@@ -41,7 +48,7 @@
             src="../assets/hands.jpg"
           >
           </v-img>
-          <router-link class="link-entidades" to="/Entidades">
+          <router-link class="link-entidades" to="/Entidade">
             <h2>Entidades</h2>
           </router-link>
         </div>
@@ -57,7 +64,10 @@
           <router-link class="link-acompanhamento" to="/Acompanhamento">
             <h2 class="">Acompanhamento</h2>
           </router-link>
+<<<<<<< HEAD
         
+=======
+>>>>>>> 941fd25314ee8ae1d3d0c4676896f62891925981
         </div>
 
         
@@ -93,7 +103,13 @@ export default {
 
 <style scoped>
 
+<<<<<<< HEAD
 
+=======
+.container{
+  background-color: #F8E1
+}
+>>>>>>> 941fd25314ee8ae1d3d0c4676896f62891925981
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
