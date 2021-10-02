@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="container">
     <acompanhamento />
     <entidade />
     <informacoes />
@@ -10,7 +10,7 @@
       </router-link>
     </v-app-bar>
 
-    <div class="homepage">
+    <div class="homepage mt-5">
       <v-container
         class="
           amber--text
@@ -22,25 +22,54 @@
         "
       >
         <div id="op1" class="mb-3 mt-5">
-          <router-link class="link-informacoes" to="/Informacoes.vue">
+         <v-img
+            contain
+            class="imagem mb-2"
+            src="../assets/celular.jpg"
+          >
+          </v-img>
+          <router-link class="link-informacoes" to="/Informacoes">
             <h2>Informações</h2>
-            <v-icon>mdi-info-outline</v-icon>
+            
           </router-link>
         </div>
 
         <div id="op2" class="mb-3 mt-5">
-        <router-link class="link-entidades" to="/Entidades.vue">
-          <h2 class="">Entidades</h2>
-        </router-link>
+          <v-img
+            contain
+            class="imagem mb-2"
+            src="../assets/hands.jpg"
+          >
+          </v-img>
+          <router-link class="link-entidades" to="/Entidades">
+            <h2>Entidades</h2>
+          </router-link>
         </div>
 
-        <div id="op3" class="mb-3 mt-5">
-          <router-link class="link-acompanhamento" to="/Acompanhamento.vue">
-          <h2 class="">Acompanhamento</h2>
-                  </router-link>
+        <div id="op3" class="mb-3 mt-5"
+        >
+        <v-img
+            contain
+            class="imagem mb-2"
+            src="../assets/therapy.jpg"
+          >
+          </v-img>
+          <router-link class="link-acompanhamento" to="/Acompanhamento">
+            <h2 class="">Acompanhamento</h2>
+          </router-link>
         </div>
+
+        
       </v-container>
+         <p class="text-caption text-justify text mt-5 font-weight-thin">
+          "O CVV - Centro de Valorização da Vida, é uma associação sem fins
+          lucrativos que atua desde 1962, prestando serviço voluntário gratuito
+          de apoio emocional e prevenção ao suicídio, com garantia de sigilo e
+          anonimato, 24h por dia. Para acessar o serviço, entre no site do CVV
+          e/ou ligue 188."
+        </p>
     </div>
+ 
   </v-container>
 </template>
 
@@ -61,35 +90,52 @@ export default {
 </script>
 
 <style scoped>
+
+.container{
+  background-color: ##F8E1
+}
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-#op1 {
-  height: 23vh;
+
+.imagem {
+  max-height: 25%;
+  max-width: auto;
   display: flex;
-  flex-direction: row;
+}
+
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 75vh;
+}
+#op1 {
+  display: flex;
+
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #f57c00;
   border-radius: 10px;
 }
 #op2 {
-  height: 23vh;
   display: flex;
-  flex-direction: row;
+
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffb300;
-
+  background-color: #f57c00;
   border-radius: 10px;
 }
 #op3 {
-  height: 23vh;
   display: flex;
-  flex-direction: row;
+
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffca28;
+  background-color: #f57c00;
   border-radius: 10px;
 }
 
