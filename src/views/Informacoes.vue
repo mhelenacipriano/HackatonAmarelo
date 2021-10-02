@@ -1,6 +1,5 @@
 <template>
-
-  <v-container>
+  <v-container class="text-justify"> >
   <h2 class="text-h6 text-center mb-7 mt-1">Informações</h2>
 
 
@@ -46,8 +45,6 @@ A campanha visa trazer informação para a população, disponibilzando diversos
     <p><a href="#" class="mt-4">Volta ao topo</a></p>
 
     </v-container>
-
-
 </template>
 
 <script>
