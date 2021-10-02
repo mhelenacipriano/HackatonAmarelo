@@ -1,8 +1,5 @@
 <template>
-  <v-app>
-
-    
-
+  <v-app class="background">
     <v-main>
       <router-view/>
     </v-main>
@@ -20,6 +17,11 @@ export default {
 </script>
 
 <style>
+
+.background{
+  background-color: #FFF3E0 !important;
+}
+
 .link-informacoes {
   color: white !important;
   text-decoration: none;
@@ -39,4 +41,7 @@ export default {
   color: white !important;
   text-decoration: none;
 }
+
 </style>
+
+
