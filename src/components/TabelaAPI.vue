@@ -9,11 +9,9 @@
                     <th colspan="1" class="text-left">
                         Nome
                     </th>
-
-                    <th class="text-left"> 
-                        Categoria
+                    <th>
+                        Descrição
                     </th>
-
                 </tr>
             </thead>
             <tbody>
@@ -31,21 +29,16 @@
                     </td>
 
                     <td> 
-                        <a  :href= "entidade.link" target="_blank">{{ entidade.nome }}</a>
+                        <a  class="link" :href= "entidade.link" target="_blank">{{ entidade.nome }}</a>
                         <v-container>
-                            <v-chip color="orange">
+                            <v-chip color="Gray">
                                 {{entidade.tipo}}
                             </v-chip>
                         </v-container>
-
                     </td>
-
-                    <td >
-                        <v-chip
-                            color="orange"
-                        >{{entidade.Categoria}}
-                        </v-chip>
-                    </td>
+                    <td>
+                        <MensageBox :mensagem="entidade.descricao"/>
+                    </td >
 
                 </tr>
             </tbody>
@@ -54,8 +47,16 @@
 </template>
 
 <script>
+
+import MensageBox from './MensageBox.vue'
+
 export default {
     name: 'TabelaAPI',
+
+    components:{
+        MensageBox
+    },
+
     props: {
         entidades: {
             type: Array,
@@ -67,5 +68,8 @@ export default {
 
 <style scoped>
 
+.link {
+    color: black;
+}
 
 </style>
