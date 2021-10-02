@@ -1,13 +1,8 @@
 <template>
-  <v-container class="container">
+  <v-container>
     <acompanhamento />
     <entidade />
     <informacoes />
-    <v-app-bar app color="#F5CF00" dark>
-      <router-link class="link-home" to="/">
-        <v-icon> mdi-home </v-icon>
-      </router-link>
-    </v-app-bar>
 
     <div class="homepage mt-5">
       <v-container
@@ -29,7 +24,6 @@
           </v-img>
           <router-link class="link-informacoes" to="/Informacoes">
             <h2>Informações</h2>
-            
           </router-link>
         </div>
 
@@ -91,9 +85,6 @@ export default {
 
 <style scoped>
 
-.container{
-  background-color: #F8E1
-}
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
