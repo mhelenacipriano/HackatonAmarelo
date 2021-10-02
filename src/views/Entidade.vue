@@ -1,9 +1,14 @@
 <template>
   <v-container>
-    <h2>
-      Entidades
+    <h2 class="text-h6 text-center mb-7 mt-1">
+      Entidades de Prevenção
     </h2>
     <TabelaAPI :entidades="EntidadesLista"/>
+     <p>
+        <a href="#" class="mt-4">
+          Volta ao topo
+        </a>
+    </p>
   </v-container>
 </template>
 
@@ -33,3 +38,7 @@ import TabelaAPI from '../components/TabelaAPI.vue'
 
   }
 </script>
+
+<style scoped>
+
+</style>

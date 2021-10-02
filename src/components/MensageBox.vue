@@ -33,7 +33,7 @@
             text
             @click="dialog = false"
           >
-            I accept
+            Ok
           </v-btn>
         </v-card-actions>
       </v-card>

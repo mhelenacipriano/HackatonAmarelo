@@ -1,6 +1,6 @@
 <template class="red " >
   <v-container>
-    <h2 class="text-h5 text-center mb-7 mt-1">Acompanhamento</h2>
+    <h2 class="text-h5 text-center mb-7 mt-1">Quer Conversar ?</h2>
 <!-- Verificar o fundo do nome e se ta alinhado-->   
 
  <v-img

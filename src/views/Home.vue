@@ -54,7 +54,7 @@
           >
           </v-img>
           <router-link class="link-acompanhamento" to="/Acompanhamento">
-            <h2 class="">Acompanhamento</h2>
+            <h2 class="">Quer Conversar ?</h2>
           </router-link>
         </div>
 
