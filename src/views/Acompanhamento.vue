@@ -11,13 +11,13 @@
  <!--  </ul> quando clicar no Acompanhamento pagos aparecer essa lista  -->
 <ul>
       <li><a href="https://zenklub.com.br" target="_blank" rel="noopener">zenklub</a></li>
-      <li><a href="https://www.getninjas.com.br" target="_blank" rel="noopener">GetNinjas</a></li>
+      <li><a href="https://www.getninjas.com.br/saude" target="_blank" rel="noopener">GetNinjas</a></li>
       <li><a href="https://www.vittude.com" target="_blank" rel="noopener">Vittude</a></li>
     </ul>
 <h4 class="mt-2">Acompanhamento gratuito:</h4>
  <!--  </ul> quando clicar no Acompanhamento gratuito aparecer essa lista  -->
 <ul>
-      <li><a href="https://www.getninjas.com.br" target="_blank" rel="noopener">GetNinjas</a></li>
+      
       <li><a href="https://www.cvv.org.br/cvv-comunidade/" target="_blank" rel="noopener">Cvv Comunidade</a></li>
       <li><a href="https://www.fepo.com.br/psicologia/psicologo-online-gratuito/" target="_blank" rel="noopener">Fepo</a></li>
       <li><a href="https://focanodinheiro.neon.com.br/controle-financeiro/terapia-popular" target="_blank">11 Alternativas de Acompanhamentos gratuitos ou acessivel </a> </li>
@@ -93,7 +93,9 @@
 
 
 <script>
+
 export default {
+ 
   name: 'meu-pontuador',
   data() {
     return {
