@@ -29,12 +29,24 @@
                             <img :src="entidade.imagem">
                         </v-avatar>
                     </td>
-                    <td> <h5> {{ entidade.nome }} </h5></td>
+
+                    <td> 
+                        <a  :href= "entidade.link" target="_blank">{{ entidade.nome }}</a>
+                        <v-container>
+                            <v-chip color="orange">
+                                {{entidade.tipo}}
+                            </v-chip>
+                        </v-container>
+
+                    </td>
+
                     <td>
                         <v-chip
                             color="orange"
-                        >{{entidade.tipo}}</v-chip>
+                        >{{entidade.tipo}}
+                        </v-chip>
                     </td>
+
                 </tr>
             </tbody>
         </template>

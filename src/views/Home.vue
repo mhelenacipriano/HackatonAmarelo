@@ -3,10 +3,9 @@
     <acompanhamento />
     <entidade />
     <informacoes />
-
     <v-app-bar app color="#F5CF00" dark>
       <router-link class="link-home" to="/">
-        <v-icon>mdi-home-variant</v-icon>
+        <v-icon> mdi-home </v-icon>
       </router-link>
     </v-app-bar>
 
@@ -24,7 +23,7 @@
         <div id="op1" class="mb-3 mt-5">
           <router-link class="link-informacoes" to="/Informacoes.vue">
             <h2>Informações</h2>
-            <v-icon>mdi-info-outline</v-icon>
+            <v-icon>mdi-letter-g-box-outline</v-icon>
           </router-link>
         </div>
 
@@ -57,6 +56,7 @@ export default {
     Acompanhamento,
     Informacoes,
   },
+
 };
 </script>
 
